@@ -92,3 +92,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+footer p {
+    float: left;
+}
