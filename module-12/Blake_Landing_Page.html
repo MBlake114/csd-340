@@ -1,0 +1,172 @@
+<!--
+    Blake, Milo
+    Module 12.3
+    10/09/2021
+-->
+
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        
+        <!-- Meta Tags-->
+        <meta name = "description" content = "" />
+        <meta name = "keywords" content = "" />
+        <meta name = "robots" content = "nofollow" />
+        <meta name = "author" content = "Milo Blake" />
+
+        <!--Links-->
+        <link href = "Blake_Landing_Page.css" type = "text/css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id ="top">
+            <h1>Milo Blake</h1>
+        </header>
+        <nav class = "navbar">
+            <a href="#top">Home</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#experience">Experience</a>
+        </nav>
+
+        <div class = "container">
+            <figure id="me">
+                <img src = "Images/Blake.JPG" alt = "Blake"/>
+                <figcaption>Picture of Milo Blake</figcaption>
+            </figure>
+
+            <div class ="hobbies" id ="hobbies">
+                <h1>Hobbies</h1>
+                <div class = "grid-3-col">
+                    <div class ="card">
+                        <div class = "card-image">
+                            <img src ="Images/book.jpg" alt ="Open Book"/>
+                        </div>
+                        <div class = "card-title">
+                            Reading
+                        </div>
+                        <div class = "card-content">
+                            <p>I've enjoyed reading for as long as I've been able to read. I usually prefer fantasy and Science Fiction books but I have also read numerous other books in almost all the Genres that exist.
+                                Some of my favorite books are The Lord of the Rings, Catch-22, and Dune.  
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class ="card">
+                        <div class = "card-image">
+                            <img src ="Images/Halo.jpg" alt ="Halo Infinite"/>
+                        </div>
+                        <div class = "card-title">
+                            Video Games
+                        </div>
+                        <div class = "card-content">
+                            <p>I've been playing video games for about as long as I've been reading books.  My first experience with video games was my parents Sega.  
+                                From there I have had every Xbox console and I even got lucky enough to secure the Xbox Series X on day one. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class ="card">
+                        <div class = "card-image">
+                            <img src ="Images/TableTop.jpeg" alt ="Table making in progress"/>
+                        </div>
+                        <div class = "card-title">
+                            Wood Working
+                        </div>
+                        <div class = "card-content">
+                            <p>I grew up on a farm and have been working with tools for most of my life.  I've recently been trying to translate those skills into making furniture
+                                as opposed to buying overly priced furniture that will likely break in a few months.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--End of hobbies-->
+
+            <br/><br/>
+
+
+            <div class ="experience" id="experience">
+                <h1>Experience</h1>
+                <div class = "grid-3-col">
+                    <div class ="card">
+                        <div class = "card-image">
+                            <img src ="Images/diplomas.jpg" alt ="Graduates holding Diplomas"/>
+                        </div>
+                        <div class = "card-title">
+                            Education
+                        </div>
+                        <div class = "card-content">
+                            <p>I'm currently getting my degree in Software Development from Bellevue University.  Hopefully this will lead to a career in the same field.</p>
+                        </div>
+                    </div>
+
+                    <div class ="card">
+                        <div class = "card-image">
+                            <img src ="Images/Army.png" alt ="Army Logo"/>
+                        </div>
+                        <div class = "card-title">
+                             Military Experience
+                        </div>
+                        <div class = "card-content">
+                            <p>I served for four years in the United States Army.  I enjoyed my time and learned many valuable lessons.  
+                                 My experience in the military has prepared me for about anything life has to throw my way.  
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class ="card">
+                        <div class = "card-image">
+                            <img src ="Images/Jack.jpeg" alt ="Jack Of All Trades"/>
+                        </div>
+                        <div class = "card-title">
+                            Random Experience
+                        </div>
+                        <div class = "card-content">
+                            <p>I've worked in a lot of different environments including being a pizza cook, farmer, electrician, plumber, and even a stay at home dad(which is the hardest Job so far).  </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--End of experience-->
+
+            <div class ="contactInfo">
+                <div class ="card full-width">
+                    <div class ="card-title">
+                        Contact Form
+                    </div>
+                    <div class ="card-content">
+                        <div class ="form">
+                            <div class ="field-form">
+                                <label for="txtFirstName">First Name:</label>
+                                <input type ="text" id = "txtFirstName" class = "input" name="txtFirstName"/>
+                            </div>
+                            <div class ="field-form">
+                                <label for="txtLastName">Last Name:</label>
+                                <input type="text" id="txtLastName" class = "input" name="txtLastName"/>
+                            </div>
+                            <div class ="field-form">
+                                <label for="txtEmail">Email:</label>
+                                <input type="text" id="txtEmail" class ="input" name="txtEmail"/>
+                            </div>
+                            <div class ="field-form">
+                                <button type="submit" class ="btn btn-primary">Send Message</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--End of contactInfo-->
+            <div class ="attribute">
+                <a href='https://www.freepik.com/photos/winter'>Winter photo created by freepik - www.freepik.com</a>
+                <a href='https://www.freepik.com/photos/education'>Education photo created by freepik - www.freepik.com</a>
+            </div>
+
+        </div><!--End of container-->
+        <footer>
+            <p>Created By Milo Blake Copyright 2021</p>
+            <a href ="#top">To the Top</a>
+        </footer>
+
+    </body>
